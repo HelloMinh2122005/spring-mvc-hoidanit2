@@ -45,5 +45,11 @@ public class Role {
     @Override
     public String toString() {
         return "Role [description=" + description + ", id=" + id + ", name=" + name + "]";
+    }
+    public List<User> getUsers() {
+        return users;
+    }
+    public void setUsers(List<User> users) {
+        this.users = users;
     } 
 }
